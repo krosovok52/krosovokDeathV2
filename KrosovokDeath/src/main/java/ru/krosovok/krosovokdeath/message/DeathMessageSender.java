@@ -102,7 +102,6 @@ public class DeathMessageSender {
                             .replace("{cause}", deathInfo.getDeathMessage()));
         }
 
-        // Формируем все части сообщения
         return new String[] {
                 ChatColor.translateAlternateColorCodes('&',
                         config.getString("messages.player", "&6Игрок: &f{player}")
