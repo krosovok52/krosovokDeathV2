@@ -15,20 +15,16 @@ public final class KrosovokDeath extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Инициализация утилит
         TimeUtils.init(getConfig());
         MessageUtils.init(this);
 
-        // Менеджеры
         deathManager = new DeathManager(this);
         commandHandler = new CommandHandler(this, deathManager);
 
-        // Регистрация событий и команд
         getServer().getPluginManager().registerEvents(new DeathListener(deathManager), this);
         getCommand("kdeath").setExecutor(commandHandler);
         getCommand("kdeath").setTabCompleter(new KDeathTabCompleter());
 
-        // Стартовое сообщение
         MessageUtils.sendStartupMessage();
     }
 
