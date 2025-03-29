@@ -1,0 +1,14 @@
+ru\krosovok\krosovokdeath\message\DeathMessageSender.class
+ru\krosovok\krosovokdeath\commands\CommandHandler.class
+ru\krosovok\krosovokdeath\util\TimeUtils.class
+ru\krosovok\krosovokdeath\listener\DeathListener.class
+ru\krosovok\krosovokdeath\data\DeathInfo.class
+ru\krosovok\krosovokdeath\util\MessageUtils.class
+ru\krosovok\krosovokdeath\KrosovokDeath.class
+ru\krosovok\krosovokdeath\util\DeathLogger.class
+ru\krosovok\krosovokdeath\listener\DeathListener$1.class
+ru\krosovok\krosovokdeath\manager\DeathManager.class
+ru\krosovok\krosovokdeath\message\DeathMessageFormatter.class
+ru\krosovok\krosovokdeath\commands\DeathCommandExecutor.class
+ru\krosovok\krosovokdeath\commands\DeathCommandExecutor$1.class
+ru\krosovok\krosovokdeath\commands\KDeathTabCompleter.class
