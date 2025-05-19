@@ -9,7 +9,7 @@ messages:
   time: "&6Время: &f{time}" # поменять часовой пояс в timezone
   separator: "§x§f§f§0§a§a§c════════════════════════════"
 
-timezone: "Europe/Moscow"  # Доступные зоны: https://www.joda.org/joda-time/timezones.html
+timezone: "Europe/Moscow"
 
 notifications:
   enabled: true
@@ -22,7 +22,7 @@ notifications:
 
 death-commands:
   enabled: true
-  delay-ticks: 60 # 1 секунда (20 тиков)
+  delay-ticks: 60 # 1 секунда = 20 тиков, 60 = 3 секунды
   commands:
     - "msg {player} Вы умерли!"
     - "msg {player} Test"
